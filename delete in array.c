@@ -19,7 +19,7 @@ int main() {
 
     if(position<0||position>n+1)
     {
-        printf("invalid position delete can be done\n");
+        printf("invalid position delete cannot be done\n");
     }
     else{
             int item=arr[position-1];
